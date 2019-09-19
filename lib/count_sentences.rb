@@ -16,10 +16,26 @@ class String
   end
 
   def exclamation?
-
+    exclamation_point = '!'
+    self[-1] == exclamation_point ? true : false
   end
 
   def count_sentences
 
   end
 end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
