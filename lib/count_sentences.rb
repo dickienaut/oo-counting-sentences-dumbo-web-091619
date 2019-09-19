@@ -2,7 +2,7 @@ require 'pry'
 
 class String
 
-  def sentence?(words)
+  def sentence?
     period = '.'
     if words[-1] == period
       true
