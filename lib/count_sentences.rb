@@ -12,7 +12,8 @@ class String
   end
 
   def question?
-
+    question_mark = '?'
+    self[-1] == question_mark
   end
 
   def exclamation?
