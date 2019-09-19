@@ -7,16 +7,12 @@ class String
    
    # (a > b) ? a : b
    
-    self[-1] == period
-      true
-    else
-      false
-    end
+    self[-1] == period ? true : false
   end
 
   def question?
     question_mark = '?'
-    self[-1] == question_mark
+    self[-1] == question_mark ? true : false
   end
 
   def exclamation?
