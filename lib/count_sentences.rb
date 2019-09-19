@@ -4,7 +4,10 @@ class String
 
   def sentence?
     period = '.'
-    if self[-1] == period
+   
+   # (a > b) ? a : b
+   
+    self[-1] == period
       true
     else
       false
